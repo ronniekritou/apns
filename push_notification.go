@@ -45,6 +45,9 @@ type Payload struct {
 	Sound            string      `json:"sound,omitempty"`
 	ContentAvailable int         `json:"content-available,omitempty"`
 	Category         string      `json:"category,omitempty"`
+	Method           int         `json:"method,omitempty"`
+	Resource         int         `json:"resource,omitempty"`
+	Payload          string      `json:"payload,omitempty"`
 }
 
 // NewPayload creates and returns a Payload structure.
